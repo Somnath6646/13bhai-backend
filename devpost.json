@@ -1,0 +1,50 @@
+{
+    "platformName": "Devpost",
+    "hackathonList": [
+        {
+            "title": "Polkadot Hackathon: North America Edition",
+            "description": "Online  Polkadot Hackathon: North America Edition  14 days leftMay 30 - Jul 11, 2022  $613,000 in prizes 972 participants  ",
+            "url": "https://polkadot-na.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "TRON Grand Hackathon 2022",
+            "description": "Online  TRON Grand Hackathon 2022  28 days leftMay 16 - Jul 25, 2022  $1,000,000 in prizes 1336 participants  ",
+            "url": "https://tron.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Polygon BUIDL IT : Summer 2022",
+            "description": "Online  Polygon BUIDL IT : Summer 2022  about 1 month leftJun 15 - Aug 01, 2022  $500,000 in prizes 980 participants  ",
+            "url": "https://buidlit.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Chirp Developer Challenge",
+            "description": "Online  Chirp Developer Challenge  about 2 months leftJun 21 - Aug 19, 2022  $520,600 in prizes 339 participants  ",
+            "url": "https://chirpdevchallenge.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Mixed Reality Dev Days 2022 - Microsoft Hackathon",
+            "description": "Online  Mixed Reality Dev Days 2022 - Microsoft Hackathon  11 days leftJun 08 - Jul 08, 2022  $17,500 in prizes 635 participants  ",
+            "url": "https://devdays.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Snap AR Lensathon 2022",
+            "description": "Online  Snap AR Lensathon 2022  16 days leftJun 01 - Jul 13, 2022  $140,000 in prizes 627 participants  ",
+            "url": "https://snaplensathon.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Square Unboxed Hackathon",
+            "description": "Online  Square Unboxed Hackathon  about 2 months leftMay 12 - Aug 22, 2022  $85,000 in prizes 583 participants  ",
+            "url": "https://squareunboxed2022.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "monday.com climate change app challenge",
+            "description": "Online  monday.com climate change app challenge  2 months leftApr 25 - Aug 31, 2022  $160,000 in prizes 493 participants  ",
+            "url": "https://mondayclimatechallenge.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        },
+        {
+            "title": "Identity for All",
+            "description": "Online  Identity for All  3 days leftMay 24 - Jun 30, 2022  $10,000 in prizes 426 participants  ",
+            "url": "https://id4all.devpost.com/?ref_feature=challenge&ref_medium=discover"
+        }
+    ]
+}

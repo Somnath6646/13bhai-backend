@@ -1,0 +1,125 @@
+{
+    "platformName": "Skillshare",
+    "courses": [
+        {
+            "title": "Intro to UX/UI Design: Create an Interactive Digital Prototype",
+            "difficultyLevel": "",
+            "usp": "725 students 1h 50m",
+            "author": "Patricia Reiners",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/c07ea6be37ec76a2303e757704b1cbbb/original",
+            "url": "https://www.skillshare.com/classes/Intro-to-UXUI-Design-Create-an-Interactive-Digital-Prototype/1876641225?via=search-layout-grid"
+        },
+        {
+            "title": "UX/UI Design Essentials",
+            "difficultyLevel": "",
+            "usp": "9,870 students 54m",
+            "author": "Antony Conboy",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/26726b80a6cb7bfcdaa8d700b75ac163/original",
+            "url": "https://www.skillshare.com/classes/UXUI-Design-Essentials/1608128688?via=search-layout-grid"
+        },
+        {
+            "title": "Intro to UI Design: User Interface Design Principles for UX/UI Designer (+Figma Design Exercise)",
+            "difficultyLevel": "",
+            "usp": "824 students 48m",
+            "author": "Christine Vallaure",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/ffb5b0ef82e9b4456d53daa74fc7672f/original",
+            "url": "https://www.skillshare.com/classes/Intro-to-UI-Design-User-Interface-Design-Principles-for-UXUI-Designer-Figma-Design-Exercise/1581966365?via=search-layout-grid"
+        },
+        {
+            "title": "UI Design Handoff to Development. A course for UX/UI Designer (Sketch & Figma)",
+            "difficultyLevel": "",
+            "usp": "2,013 students 1h 48m",
+            "author": "Christine Vallaure",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/c5ebcb427d71003d602115f4fab90eb5/original",
+            "url": "https://www.skillshare.com/classes/UI-Design-Handoff-to-Development-A-course-for-UXUI-Designer-Sketch-Figma/117332145?via=search-layout-grid"
+        },
+        {
+            "title": "Building Awesome Color Schemes for Web & UI Design Projects",
+            "difficultyLevel": "",
+            "usp": "2,697 students 4h 26m",
+            "author": "Muhammad Ahsan",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/1baee493b49cd4266c55ebd7944c0aa0/original",
+            "url": "https://www.skillshare.com/classes/Building-Awesome-Color-Schemes-for-Web-UI-Design-Projects/1483938113?via=search-layout-grid"
+        },
+        {
+            "title": "Visual Design for Web UI Designers & Developers → Getting Better at Design",
+            "difficultyLevel": "",
+            "usp": "1,631 students 3h 18m",
+            "author": "Muhammad Ahsan",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/6bb67580dbf519afeed244b21a56e61a/original",
+            "url": "https://www.skillshare.com/classes/Visual-Design-for-Web-UI-Designers-Developers-%E2%86%92-Getting-Better-at-Design/734157389?via=search-layout-grid"
+        },
+        {
+            "title": "UI Design Basics: Design and Prototype Your First Mobile App",
+            "difficultyLevel": "",
+            "usp": "2,636 students 1h 39m",
+            "author": "Ljubomir Bardžić",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/961c9072aca49c2462a344862c11f1c2/original",
+            "url": "https://www.skillshare.com/classes/UI-Design-Basics-Design-and-Prototype-Your-First-Mobile-App/488342884?via=search-layout-grid"
+        },
+        {
+            "title": "Visual and UI Design Foundations: Create Visually Appealing Content",
+            "difficultyLevel": "",
+            "usp": "1,844 students 1h 2m",
+            "author": "Julia Zaytseva",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/b1eedcc332b104f4b21f241b738c892f/original",
+            "url": "https://www.skillshare.com/classes/Visual-and-UI-Design-Foundations-Create-Visually-Appealing-Content/455758850?via=search-layout-grid"
+        },
+        {
+            "title": "Figma Bootcamp 2: Learn UI Design: Effective Landing Pages",
+            "difficultyLevel": "",
+            "usp": "696 students 1h 0m",
+            "author": "Brian White",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/c15407eb240ea4d08b7ade296d832d3a/original",
+            "url": "https://www.skillshare.com/classes/Figma-Bootcamp-2-Learn-UI-Design-Effective-Landing-Pages/683168530?via=search-layout-grid"
+        },
+        {
+            "title": "Einführung in UX/UI Design für Grafik Designer",
+            "difficultyLevel": "",
+            "usp": "46 students 1h 8m",
+            "author": "Patricia Reiners",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/9983237d87d1e9a5ce58a63b108106dd/original",
+            "url": "https://www.skillshare.com/classes/Einf%C3%BChrung-in-UXUI-Design-f%C3%BCr-Grafik-Designer/2106078348?via=search-layout-grid"
+        },
+        {
+            "title": "DESIGN RULES: Fundamental Principles + Practices for Great UI Design",
+            "difficultyLevel": "",
+            "usp": "5,286 students 5h 11m",
+            "author": "Joe Natoli",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/6144948281001/1280-720",
+            "url": "https://www.skillshare.com/classes/DESIGN-RULES-Fundamental-Principles-Practices-for-Great-UI-Design/739408485?via=search-layout-grid"
+        },
+        {
+            "title": "Typography in UX/UI Design – The Complete Designer Guide (+ Figma Typescale File)",
+            "difficultyLevel": "",
+            "usp": "1,167 students 47m",
+            "author": "Christine Vallaure",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/f9d4a2f61e649750d95648df15a20d7a/original",
+            "url": "https://www.skillshare.com/classes/Typography-in-UXUI-Design-%E2%80%93-The-Complete-Designer-Guide-Figma-Typescale-File/659654181?via=search-layout-grid"
+        },
+        {
+            "title": "Typography & Vertical Rhythm for UI Designers and Web Developers",
+            "difficultyLevel": "",
+            "usp": "2,157 students 8h 28m",
+            "author": "Muhammad Ahsan",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/0595cb173ca9cf766a70a6e7a0f483ac/original",
+            "url": "https://www.skillshare.com/classes/Typography-Vertical-Rhythm-for-UI-Designers-and-Web-Developers/822001747?via=search-layout-grid"
+        },
+        {
+            "title": "Basic UX/UI Design Wireframes and Prototyping Tutorial",
+            "difficultyLevel": "",
+            "usp": "1,471 students 13m",
+            "author": "Sarah Bannister",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/0542cda169bdcdefa72c4cca0534ce40/original",
+            "url": "https://www.skillshare.com/classes/Basic-UXUI-Design-Wireframes-and-Prototyping-Tutorial/202853739?via=search-layout-grid"
+        },
+        {
+            "title": "Learn our UI design process - Prototype apps & websites.",
+            "difficultyLevel": "",
+            "usp": "1,184 students 1h 11m",
+            "author": "Justin Marchant",
+            "imgUrl": "https://static.skillshare.com/uploads/video/thumbnails/426ec486df57c813e8f83526d39040a7/original",
+            "url": "https://www.skillshare.com/classes/Learn-our-UI-design-process-Prototype-apps-websites/217758824?via=search-layout-grid"
+        }
+    ]
+}

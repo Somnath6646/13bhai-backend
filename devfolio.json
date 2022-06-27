@@ -1,0 +1,30 @@
+{
+    "platformName": "Devfolio",
+    "hackathonList": [
+        {
+            "title": "DUHacks",
+            "description": "StartsJuly 16th, 2022  EndsJuly 17th, 2022  Happening online  Learn more about DUHacks  ",
+            "url": "https://duhacks.tech/"
+        },
+        {
+            "title": "Hack JKLU",
+            "description": "OnAugust 13 - 14, 2022  AtMahapura, India  Applications closeJuly 16th, 2022  ",
+            "url": "https://www.hackjklu.xyz/"
+        },
+        {
+            "title": "SSOC(Social Summer Of Code)",
+            "description": "StartsJune 10th, 2022  EndsOctober 1st, 2022  Happening online  Learn more about SSOC(Social Summer Of Code)  ",
+            "url": "https://ssoc.getsocialnow.co/"
+        },
+        {
+            "title": "KU HackFest 2022",
+            "description": "StartsAugust 5th, 2022  EndsAugust 7th, 2022  Happening online  Learn more about KU HackFest 2022  ",
+            "url": "https://www.kuhackfest.com/"
+        },
+        {
+            "title": "ETHIndia Grants",
+            "description": "StartsMay 1st, 2022  EndsFebruary 1st, 2023  Happening online  Learn more about ETHIndia Grants  ",
+            "url": "https://ethindiagrants.devfolio.co/"
+        }
+    ]
+}
