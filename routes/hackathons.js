@@ -9,8 +9,9 @@ const {
 
 router.get(
   "/hackathons",
-  getDevfolioHackathons,
+
   getDevpostHackathons,
+  getDevfolioHackathons,
   getHackathons
 );
 module.exports = router;

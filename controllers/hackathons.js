@@ -9,10 +9,13 @@ const { createContext } = browserlessFactory({
   ignoreHTTPSErrors: true,
 });
 
+var cachedDevfolioHackathons = [];
+
+var cachedDevPostHackathons = []; //sometimes the code is able to scrape and sometimes not that is why here is a cached list whose value gets replaced everytime the code scrapes >1 hackathon
+
 exports.getDevfolioHackathons = (req, res, next) => {
   var query = req.query.q;
-  var link =
-    "https://devfolio.co/hackathons?hackathon_type%3Din_person%2Conline%26time_frame%3Dapplication_open";
+  var link = "https://devfolio.co/hackathons";
 
   scrapeDevFolio(link);
   function scrapeDevFolio(link) {
@@ -31,22 +34,22 @@ exports.getDevfolioHackathons = (req, res, next) => {
       });
       var document = doc.window.document;
       var hackathons = document.querySelectorAll(
-        ".style__Inner-sc-19afmba-7.fvQDhb"
+        ".sc-hjQCSK.sc-bSakgD.iIfzrK.jOSBEK"
       );
       var list = [];
       for (let index = 0; index < hackathons.length; index++) {
         const hackathon = hackathons[index];
-        var title = hackathon.querySelector(".sc-hAZoDl.dUaiSK").textContent;
+        var title = hackathon.getElementsByTagName("h5")[0].textContent;
+        console.log(index);
 
         var description = "";
 
-        var childrens = hackathon.querySelectorAll(
-          ".style__Flex-sc-19afmba-5.blINFx"
-        )[1].children;
+        var childrens = hackathon.children;
 
         for (let j = 0; j < childrens.length; j++) {
           const element = childrens[j];
-          description += element.textContent + "  ";
+
+          description += element.textContent + "    ";
         }
         var url = hackathon.getElementsByTagName("a")[0].href;
         var json = {
@@ -56,9 +59,11 @@ exports.getDevfolioHackathons = (req, res, next) => {
         };
         list.push(json);
       }
+      if (list.length > 0) cachedDevfolioHackathons = list;
+
       var hackathonJson = {
         platformName: "Devfolio",
-        hackathonList: list,
+        hackathonList: cachedDevfolioHackathons,
       };
       req.devFolioHackathons = hackathonJson;
       next();
@@ -93,7 +98,6 @@ exports.getDevpostHackathons = (req, res, next) => {
         const hackathon = hackathons[index];
         var title = hackathon.getElementsByTagName("h3")[0].textContent;
         var description = "";
-        console.log(index);
         var childrens = hackathon.querySelector(".main-content").children;
 
         for (let j = 0; j < childrens.length; j++) {
@@ -109,9 +113,12 @@ exports.getDevpostHackathons = (req, res, next) => {
         };
         list.push(json);
       }
+
+      if (list.length > 0) cachedDevPostHackathons = list;
+
       var hackathonJson = {
         platformName: "Devpost",
-        hackathonList: list,
+        hackathonList: cachedDevPostHackathons,
       };
       req.devpostHackathons = hackathonJson;
       next();
@@ -121,5 +128,5 @@ exports.getDevpostHackathons = (req, res, next) => {
 };
 
 exports.getHackathons = (req, res) => {
-  res.status(200).json([req.devpostHackathons, req.devFolioHackathons]);
+  res.status(200).json([req.devFolioHackathons, req.devpostHackathons]);
 };
