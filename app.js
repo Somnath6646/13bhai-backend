@@ -19,5 +19,5 @@ app.use("/api", coursesRoutes);
 const port = 8000;
 
 app.listen(port, () => {
-  console.log(`app is running at ${port}`);
+	console.log(`app is running at ${port}`);
 });

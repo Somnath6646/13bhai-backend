@@ -9,7 +9,7 @@ services:
       args:
         NODE_ENV: production
     deploy:
-      replicas: 8
+      replicas: 2
       restart_policy:
         condition: on-failure
         delay: 5s
